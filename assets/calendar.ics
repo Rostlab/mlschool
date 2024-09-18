@@ -1,13 +1,11 @@
 BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//ical.marudot.com//iCal Event Maker
-X-WR-CALNAME:mlschool for toxinologists
-NAME:mlschool for toxinologists
 CALSCALE:GREGORIAN
 BEGIN:VTIMEZONE
 TZID:Europe/Berlin
-LAST-MODIFIED:20201011T015911Z
-TZURL:http://tzurl.org/zoneinfo-outlook/Europe/Berlin
+LAST-MODIFIED:20240422T053451Z
+TZURL:https://www.tzurl.org/zoneinfo-outlook/Europe/Berlin
 X-LIC-LOCATION:Europe/Berlin
 BEGIN:DAYLIGHT
 TZNAME:CEST
@@ -25,22 +23,13 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-DTSTAMP:20230714T083323Z
-UID:1689323550174-63184@ical.marudot.com
-DTSTART;TZID=Europe/Berlin:20231212T090000
-RRULE:FREQ=DAILY;UNTIL=20231214T080000Z
-DTEND;TZID=Europe/Berlin:20231212T180000
-SUMMARY:Winterschool for Toxinologists
+DTSTAMP:20240923T133011Z
+UID:1727098186286-35161@ical.marudot.com
+DTSTART;TZID=Europe/Berlin:20241209T130000
+DTEND;TZID=Europe/Berlin:20241212T170000
+SUMMARY:MLSchool for Toxinologists
 URL:https://mlschool23.rostlab.org/
-LOCATION:Boltzmannstraße 3  85748 Garching\, Germany
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20230714T083323Z
-UID:1689323566138-63749@ical.marudot.com
-DTSTART;TZID=Europe/Berlin:20231215T090000
-DTEND;TZID=Europe/Berlin:20231215T120000
-SUMMARY:Winterschool for Toxinologists
-URL:https://mlschool23.rostlab.org/
+DESCRIPTION:Winterschool for Toxinologists
 LOCATION:Boltzmannstraße 3  85748 Garching\, Germany
 END:VEVENT
 END:VCALENDAR
